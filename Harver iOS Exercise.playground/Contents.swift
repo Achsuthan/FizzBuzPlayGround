@@ -61,7 +61,7 @@ func question2(){
     }
     
 }
-
+//Q3
 func question3(){
     print("\nQ3 Answer = > \n")
     let myGroup = DispatchGroup()
@@ -92,7 +92,7 @@ func question3(){
         }
     }
 }
-
+//Q4
 func question4(){
     print("\nQ4 Answer = > \n")
     let myGroup = DispatchGroup()
