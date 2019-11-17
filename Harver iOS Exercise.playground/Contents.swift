@@ -77,7 +77,7 @@ func question3(){
         }
         else {
             myGroup.enter()
-            getRandomWord(slow: true) { (word, error) in
+            getRandomWord() { (word, error) in
                 if let val = word{
                     randomString = val
                 }
@@ -108,7 +108,7 @@ func question4(){
         }
         else {
             myGroup.enter()
-            getRandomWord(slow: true) { (word, error) in
+            getRandomWord() { (word, error) in
                 if let val = word{
                     randomString = val
                 }
@@ -124,11 +124,13 @@ func question4(){
     }
 }
 
-question1()
+//question1()
 //question2()
 //question3()
-//question4()
+question4()
 
 
 
 //Q5 and Q6 in the git link  https://github.com/Achsuthan/FizzBuz.git
+
+//Q6 Yes can run it
